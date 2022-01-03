@@ -119,14 +119,14 @@ void LocalMapping::Run()
                          lit = mlpRecentAddedMapLines.erase(lit);
                      }
                      // 跟踪到该MapPoint的Frame数相比预计可观测到该MapPoint的Frame数的比例需大于25%
-                      else if (pML->GetFoundRatio() < 0.02f)
+                      else if (pML->GetFoundRatio() < 0.01f)
                       {
                           // 地图的线帧数少于25就删除
                           pML->SetBadFlag();
                           lit = mlpRecentAddedMapLines.erase(lit);
                       }
                      //    从该点建立开始，到现在已经过了不小于2个关键帧，但是观测到该点的关键帧数却不超过cnThObs帧，那么该点检验不合格。SetBadFlag()
-                     else if (((int) nCurrentKFid - (int) pML->mnFirstKFid) >= 2 && pML->Observations() <= 1)
+                     else if (((int) nCurrentKFid - (int) pML->mnFirstKFid) >= 2 && pML->Observations() <1)
                      {
                          // 关键帧有了两帧且观察点少于阈值就删除
                          pML->SetBadFlag();
