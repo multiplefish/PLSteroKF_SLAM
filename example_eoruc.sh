@@ -1,0 +1,1 @@
+./Examples/Stereo/stereo_euroc Vocabulary/ORBvoc.txt Examples/Stereo/EuRoC.yaml /home/fish/workspace/datasheet/EROUC/V2_03_difficult/mav0/cam0/data /home/fish/workspace/datasheet/EROUC/V2_03_difficult/mav0/cam1/data Examples/Stereo/EuRoC_TimeStamps/V203.txt
