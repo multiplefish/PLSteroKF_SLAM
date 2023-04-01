@@ -25,8 +25,7 @@ Pangolin
 We use Pangolin for visualization and user interface. Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
 
 OpenCV
-We use OpenCV to manipulate images and features. Dowload and install instructions can be found at: http://opencv.org. Required at leat 2.4.3. Tested with OpenCV 2.4.11 and OpenCV 3.2.
-
+We use OpenCV to manipulate images and features. Dowload and install instructions can be found at: http://opencv.org. Required at leat 2.4.3. Tested with OpenCV 2.4.11 and OpenCV 3.2.opencv_contrib at:https://github.com/opencv/opencv_contrib
 Eigen3
 Required by g2o (see below). Download and install instructions can be found at: http://eigen.tuxfamily.org. Required at least 3.1.0.
 
