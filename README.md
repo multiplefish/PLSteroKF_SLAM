@@ -1,6 +1,6 @@
 
-1.Introduction
-This repository is available with low threshold ORB feature points and also contains binocular line features. The line features are optimized for binoculars with rotational external parameters.
+1.IntroductionCancel changes。
+This repository is available with low threshold ORB feature points and also contains binocular line features. The line features are optimized for binoculars with rotational external parameters.Keyframe strategy adds PID calculation based on the degree of co-viewing.
 
 
 <img src="https://user-images.githubusercontent.com/41461914/229263074-8cf0d43c-3c17-485e-ab36-2ab1de341b2e.png" width = 50% height =  50% /> <img src="https://user-images.githubusercontent.com/41461914/229263888-43bcc7db-10e7-428b-9e6b-8ac38177aed1.png" width = 50% height =  50% /> 
